@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.nav-bar {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.nav-bar-list-item {
+    text-decoration: none;
+    color: #323f4b;
+    margin-left: 10px;
+}
+
+.Banner-bg {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.banner-inner-con {
+    text-align: center;
+}
+
+.Banner-head {
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.Banner-caption {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.Banner-Button {
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    border-width: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.Banner-Outline-Button {
+    width: 130px;
+    height: 45px;
+    color: #d0b200;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d0b200;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.wcu-bg {
+    background-color: #f9fbfe;
+    margin-top: 0px;
+}
+
+.wcu-head {
+    font-weight: 700;
+    color: #183b56;
+    font-size: 28px;
+    margin-left: 22px;
+}
+
+.wcu-des {
+    color: #5a7184;
+    font-size: 16px;
+    margin-left: 22px;
+}
+
+.wcu-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wcu-card {
+    background-color: white;
+    text-align: center;
+    border-color: #e5eaf4;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wcu-card-img {
+    height: 90px;
+    width: 87px;
+
+}
+
+.wcu-card-head {
+    font-weight: 500;
+    color: #323f4b;
+    font-size: 22px;
+}
+
+.wcu-card-des {
+    color: #7b8794;
+    font-size: 16px;
+}
+
+.offer {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.em-bg {
+    background-color: white;
+    padding: 12px;
+}
+
+.em-head {
+    font-weight: 700;
+    color: #183b56;
+    font-size: 28px;
+    margin-left: 18px;
+}
+
+.em-card-con {
+    display: flex;
+    justify-content: space-around;
+}
+
+.em-card-img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.menu-card-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #323f4b;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #d0b200;
+    font-size: 14px;
+}
+
+.em-card {
+    border-radius: 16px;
+    width: 23%;
+    border: solid 2px #f0eded;
+    padding: 8px;
+}
+
+.follow-sec {
+    background-color: #f9fbfe;
+    padding: 10px;
+    height: 200px;
+}
+
+.follow-head {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.footer-section {
+    background-color: #0d2436;
+    text-align: center;
+    height: 280px;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.icons-con {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.follow-icon-con {
+    background-color: #faf7e8;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
